@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRIMANA.Customer.Api", "TRIMANA.Api\TRIMANA.Customer.Api.csproj", "{2BAA29FA-41FE-4A72-9272-1A29C462160B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRIMANA.Customer.Domain", "TRIMANA.Domain\TRIMANA.Customer.Domain.csproj", "{4F1387A2-E735-45F9-A3B9-B4D6082BD47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRIMANA.Customer.Application", "TRIMANA.Customer.Application\TRIMANA.Customer.Application.csproj", "{3800E4E2-845C-4AC6-A4BB-D90842F771E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B7F2018-2D15-4D4C-ACFE-0D7C18A19C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRIMANA.Customer.Application.Test", "Tests\TRIMANA.Customer.Application.Test\TRIMANA.Customer.Application.Test.csproj", "{E000472F-D41B-4E73-8091-0EE493D2F0D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BAA29FA-41FE-4A72-9272-1A29C462160B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAA29FA-41FE-4A72-9272-1A29C462160B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAA29FA-41FE-4A72-9272-1A29C462160B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAA29FA-41FE-4A72-9272-1A29C462160B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1387A2-E735-45F9-A3B9-B4D6082BD47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1387A2-E735-45F9-A3B9-B4D6082BD47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1387A2-E735-45F9-A3B9-B4D6082BD47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1387A2-E735-45F9-A3B9-B4D6082BD47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3800E4E2-845C-4AC6-A4BB-D90842F771E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3800E4E2-845C-4AC6-A4BB-D90842F771E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3800E4E2-845C-4AC6-A4BB-D90842F771E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3800E4E2-845C-4AC6-A4BB-D90842F771E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E000472F-D41B-4E73-8091-0EE493D2F0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E000472F-D41B-4E73-8091-0EE493D2F0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E000472F-D41B-4E73-8091-0EE493D2F0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E000472F-D41B-4E73-8091-0EE493D2F0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E000472F-D41B-4E73-8091-0EE493D2F0D7} = {6B7F2018-2D15-4D4C-ACFE-0D7C18A19C1B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCEBD784-469F-445E-B060-CEF5B128D14C}
+	EndGlobalSection
+EndGlobal
