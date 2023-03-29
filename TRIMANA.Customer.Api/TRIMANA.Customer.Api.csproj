@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -9,12 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TRIMANA.Domain\TRIMANA.Customer.Domain.csproj" />
+    <ProjectReference Include="..\TRIMANA.Customer.Application\TRIMANA.Customer.Application.csproj" />
+    <ProjectReference Include="..\TRIMANA.Customer.Domain\TRIMANA.Customer.Domain.csproj" />
   </ItemGroup>
 
 </Project>

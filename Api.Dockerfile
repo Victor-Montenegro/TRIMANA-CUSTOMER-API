@@ -3,9 +3,10 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /source
 
 # copy csproj and restore as distinct layers
-COPY TRIMANA.sln .
+COPY TRIMANA.Customer.sln .
 COPY TRIMANA.Customer.Api/*.csproj ./TRIMANA.Customer.Api/
 COPY TRIMANA.Customer.Domain/*.csproj ./TRIMANA.Customer.Domain/
+COPY TRIMANA.Customer.Application/*.csproj ./TRIMANA.Customer.Application/
 RUN dotnet restore
 
 # copy everything else and build app

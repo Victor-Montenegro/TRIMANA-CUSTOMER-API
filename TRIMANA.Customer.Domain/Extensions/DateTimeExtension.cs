@@ -1,4 +1,4 @@
-﻿namespace TRIMANA.Domain.Extensions
+﻿namespace TRIMANA.Customer.Domain.Extensions
 {
     public static class DateTimeExtension
     {
