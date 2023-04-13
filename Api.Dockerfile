@@ -7,11 +7,13 @@ COPY TRIMANA.Customer.sln .
 COPY TRIMANA.Customer.Api/*.csproj ./TRIMANA.Customer.Api/
 COPY TRIMANA.Customer.Domain/*.csproj ./TRIMANA.Customer.Domain/
 COPY TRIMANA.Customer.Application/*.csproj ./TRIMANA.Customer.Application/
+COPY Tests/TRIMANA.Customer.Application.Test/*.csproj ./Tests/TRIMANA.Customer.Application.Test/
 RUN dotnet restore
 
 # copy everything else and build app
 COPY TRIMANA.Customer.Api/. ./TRIMANA.Customer.Api/
 COPY TRIMANA.Customer.Domain/. ./TRIMANA.Customer.Domain/
+COPY TRIMANA.Customer.Application/. ./TRIMANA.Customer.Application/
 WORKDIR /source/TRIMANA.Customer.Api
 RUN dotnet publish -c Release -o out
 

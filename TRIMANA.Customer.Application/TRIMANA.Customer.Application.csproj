@@ -14,6 +14,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\TRIMANA.Customer.Domain\TRIMANA.Customer.Domain.csproj" />
+	  <ProjectReference Include="..\TRIMANA.Customer.Infrastructure\TRIMANA.Customer.Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>

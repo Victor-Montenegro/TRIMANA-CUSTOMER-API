@@ -7,7 +7,7 @@ namespace TRIMANA.Customer.Application.ProjectDependencies
     {
         public static IServiceCollection ApplicationDependence(this IServiceCollection service)
         {
-            var applicationAssembly = Assembly.GetExecutingAssembly();
+            Assembly applicationAssembly = Assembly.GetExecutingAssembly();
 
             service.AddMediatR(c =>
                     c.RegisterServicesFromAssembly(applicationAssembly));

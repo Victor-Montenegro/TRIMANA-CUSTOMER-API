@@ -8,5 +8,8 @@
 
             return TimeZoneInfo.ConvertTimeFromUtc(dateTime.ToUniversalTime(), timeZoneInfo);
         }
+
+        public static bool OverAge(this DateTime age)
+            => age.Year - DateTime.Now.Year >= 0;
     }
 }
